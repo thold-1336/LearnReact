@@ -6,29 +6,27 @@ class Soft extends Component {
       <div className="col-6 col-sm-6 col-md-6 col-lg-6">
         <div className="dropdown">
           <button className="btn btn-primary dropdown-toggle w-25" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Sắp Xếp
+            Sort
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li className="dropdown-item">
               <a role="button">
-                <span className="fa fa-sort-alpha-asc">
-                  Tên A-Z
-                </span>
+                <span className="fa fa-sort-alpha-asc mr-2"></span>
+                Name ASC
               </a>
             </li>
             <li className="dropdown-item">
               <a role="button">
-                <span className="fa fa-sort-alpha-desc">
-                  Tên Z-A
-                </span>
+                <span className="fa fa-sort-alpha-desc mr-2"></span>
+                Name DESC
               </a>
             </li>
             <li role="separator" className="dropdown-divider" />
             <li className="dropdown-item">
-              <a role="button">Trạng Thái Kích Hoạt</a>
+              <a role="button">Status Active</a>
             </li>
             <li className="dropdown-item">
-              <a role="button">Trạng Thái Ẩn</a>
+              <a role="button">Status Not active</a>
             </li>
           </ul>
         </div>
